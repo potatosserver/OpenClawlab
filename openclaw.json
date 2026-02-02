@@ -12,8 +12,8 @@
         "api": "openai-completions",
         "models": [
           {
-            "id": "qwen3:1.7b",
-            "name": "Qwen 3 1.7B (Colab Edition)",
+            "id": "qwen2.5:3b",
+            "name": "Qwen 2.5:3B (Colab Edition)",
             "reasoning": false,
             "input": [
               "text"
@@ -33,7 +33,7 @@
         "maxConcurrent": 4
       },
       "model": {
-        "primary": "ollama/qwen3:1.7b"
+        "primary": "ollama/qwen2.5:3b"
       }
     }
   },
